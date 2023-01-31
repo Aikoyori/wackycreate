@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.aikoyori.wackycreate.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TrackEdgeMixin",
+    "TrackItemMixin",
+    "TrackPlacementAccessor",
+    "TrackPlacementInfoAccessor",
+    "TrackPlacementMixin"
+  ],
+  "client": [
+    "TrackPlacementClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

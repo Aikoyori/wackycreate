@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "wackycreate",
+  "version": "${version}",
+  "name": "Wacky Create",
+  "description": "made create wacky",
+  "authors": ["Aikoyori"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/wackycreate/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "xyz.aikoyori.wackycreate.client.WackycreateClient"
+    ],
+    "main": [
+      "xyz.aikoyori.wackycreate.Wackycreate"
+    ]
+  },
+  "mixins": [
+    "wackycreate.mixins.json"
+  ],
+  "accessWidener" : "wackycreate.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
